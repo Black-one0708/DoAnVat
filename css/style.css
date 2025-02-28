@@ -344,6 +344,9 @@ label {
 .header-logo {
 	margin-top: 3px;
 }
+.header-logo img{
+	height: 50px;
+}
 .heder-button{}
 .heder-button a.btn {
 	background: none;
@@ -2073,11 +2076,12 @@ label {
 .p-50 {
   padding: 50px;
 }
-
+/* @media (min-width:1200px){.container{max-width:1000px}} */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .p-50 {
     padding: 30px;
   }
+  
 }
 
 @media (max-width: 767px) {
@@ -2837,6 +2841,10 @@ ul.cat li a:hover {
 .footer-logo {
 	margin-bottom: 30px;
 }
+
+.footer-logo img{
+	height: 50px;
+}
 .footer-text p {
 	margin-bottom: 0;
 	color: #385871;
@@ -3086,8 +3094,11 @@ ul.cat li a:hover {
 
 /* 17. service-area */
 .service-area {
+	background-color: #333;
+	background-image: url('../img/b2.png'), url('../img/b2.png'), url('../img/b2.png'), url('../img/b2.png');
 	background-size: cover;
-	background-position: center center;
+	background-position: left center, top center, right center, bottom center;
+	background-repeat: no-repeat;
 }
 
 .service-wrapper {
@@ -3463,6 +3474,9 @@ ul.cat li a:hover {
 .bottom-social-icon a:last-child{margin-right:0;}
 .bottom-logo {
 	margin-top: 4px;
+}
+.bottom-logo img{
+	height: 100px;
 }
 
 /* brand 2 */
